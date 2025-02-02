@@ -491,7 +491,7 @@ position = Vector2(87, 25)
 position = Vector2(44, -45)
 
 [node name="Coin3" parent="." instance=ExtResource("5_ywhk7")]
-position = Vector2(-184, 21)
+position = Vector2(142, 24)
 
 [node name="Green Slime" parent="." instance=ExtResource("6_ig7ch")]
 position = Vector2(-73, -22)
@@ -504,3 +504,6 @@ position = Vector2(0, 11)
 zoom = Vector2(4, 4)
 limit_bottom = 70
 position_smoothing_enabled = true
+
+[node name="Coin4" parent="." instance=ExtResource("5_ywhk7")]
+position = Vector2(99, -25)
