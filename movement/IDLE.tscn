@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cya61ly7mvmba"]
+
+[ext_resource type="Script" path="res://movement/IDLE.gd" id="1_qtteo"]
+
+[node name="IDLE" type="Node"]
+script = ExtResource("1_qtteo")

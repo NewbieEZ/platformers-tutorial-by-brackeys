@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://cnbphkohvma25"]
+
+[ext_resource type="Script" path="res://movement/DASH.gd" id="1_crtel"]
+
+[node name="DASH" type="Node"]
+script = ExtResource("1_crtel")
+
+[node name="Dash_duration_timer" type="Timer" parent="."]
+wait_time = 0.2
+
+[connection signal="timeout" from="Dash_duration_timer" to="." method="_on_dash_duration_timer_timeout"]

@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://b38l7cwdcvq5g"]
+
+[ext_resource type="Script" path="res://movement/FALL.gd" id="1_hf22l"]
+
+[node name="FALL" type="Node"]
+script = ExtResource("1_hf22l")
+
+[node name="CoyoteTimer" type="Timer" parent="."]
+wait_time = 0.2
