@@ -494,7 +494,7 @@ position = Vector2(44, -45)
 position = Vector2(-184, 21)
 
 [node name="Green Slime" parent="." instance=ExtResource("6_ig7ch")]
-position = Vector2(-73, -22)
+position = Vector2(-75, 12)
 
 [node name="PLAYER" parent="." instance=ExtResource("7_g573v")]
 position = Vector2(-32, -19)
