@@ -462,6 +462,7 @@ shape = SubResource("WorldBoundaryShape2D_neisa")
 
 [node name="Player1" parent="." instance=ExtResource("1_4cyy5")]
 z_index = 5
+position = Vector2(1, -19)
 
 [node name="TileMap" type="TileMap" parent="."]
 position = Vector2(6, 3)

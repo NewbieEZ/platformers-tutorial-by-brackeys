@@ -4,6 +4,7 @@ extends "state.gd"
 @export var coyote_duration = .2
 
 var can_jump = true
+
 func update(delta):
 	Player.gravity(delta)
 	player_movement()
