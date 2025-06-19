@@ -1,7 +1,7 @@
 [gd_scene load_steps=31 format=3 uid="uid://qpwep747h1k4"]
 
-[ext_resource type="Script" path="res://movement/PLAYER.gd" id="1_uqwo6"]
-[ext_resource type="Script" path="res://movement/STATES.gd" id="2_dbl5k"]
+[ext_resource type="Script" uid="uid://clcnnarc0abah" path="res://movement/PLAYER.gd" id="1_uqwo6"]
+[ext_resource type="Script" uid="uid://fdqbene520d1" path="res://movement/STATES.gd" id="2_dbl5k"]
 [ext_resource type="Texture2D" uid="uid://c6o8i72gl6p8f" path="res://assets/sprites/knight.png" id="2_pl61o"]
 [ext_resource type="PackedScene" uid="uid://cya61ly7mvmba" path="res://movement/IDLE.tscn" id="3_7ugca"]
 [ext_resource type="PackedScene" uid="uid://cnbphkohvma25" path="res://movement/DASH.tscn" id="4_40ud5"]
