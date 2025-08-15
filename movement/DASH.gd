@@ -10,6 +10,8 @@ var dashing = false
 func update(delta):
 	if !dashing:
 		return STATES.FALL
+	if Player.jump_input_actuation:
+		return STATES.JUMP
 	return null
 
 func enter_state():
