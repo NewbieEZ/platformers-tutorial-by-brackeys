@@ -1,5 +1,7 @@
 extends "state.gd"
 
+@onready var animated_sprite_2d = $"../../AnimatedSprite2D"
+
 func update(delta):
 	Player.gravity(delta)
 	player_movement()
@@ -14,3 +16,4 @@ func update(delta):
 	return null
 func enter_state():
 	Player.can_dash = true
+	animated_sprite_2d.play("walk")
